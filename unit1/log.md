@@ -58,3 +58,27 @@ void cvtColor(img,trans_image,type,num_channel);
 1. RGB->HSV,然后色相(H)反转,然后HSV->RGB
 
     要注意变量的强制类型转换，char->float,double等。
+
+# answer6
+
+1. 过于简单hhh
+
+# answer7
+
+1. 过于简单
+
+# answer8
+
+1. 过于简单
+
+# answer9
+
+1. 过于简单
+
+# answer10
+    
+1. 使用内置排序函数，`std::sort(array,attay+size);`
+
+2. 写滤波函数的时候，可以使用填充边界的策略，也可是使用获取窗口的左上角和右下角的坐标来获取滑动窗口的范围，这样就不会越界了。
+
+
